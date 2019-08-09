@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Universal UI Toolkit for React and Preact web applications",
   "main": "index.js",
-  "author": "George Aprozeanu",
-  "license": "MIT",
-  "private": false
+  "files": ["index.js"],
+  "author": "George Aprozeanu <george.aprozeanu@gmail.com>",
+  "license": "MIT"
 }
