@@ -1,9 +1,9 @@
 import * as React from "react"
+import {ButtonHTMLAttributes} from "react"
 
-export interface ButtonProps {
-	label: string;
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
-export function Button({label, ...props}: ButtonProps) {
-	return <button {...{props}}>{label}</button>
+export function Button(props: ButtonProps) {
+	return <button {...{props}}>{props.children}</button>
 }
