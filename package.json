@@ -1,9 +1,15 @@
 {
-  "name": "subskin",
+  "name": "subskin-repo",
   "version": "0.0.1",
   "description": "Universal UI Toolkit for React and Preact web applications",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "author": "George Aprozeanu <george.aprozeanu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "typescript": "^3.5.3"
+  }
 }
